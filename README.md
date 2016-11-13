@@ -1,1 +1,3 @@
-# SwiftRestaurantPicker
+# Restaurant Picker
+
+Used Xcode to add labels and button in the Main.storyboard. Used @IBAction to activate a button that outputs text to the middle label with an @IBOutlet. This text is determined by an array, which is hardcoded earlier with various restaurant names. A random number generator figures out which element in the array to call, which is reflected in the label *"Click choose to pick a restaurant!"* changing to the randomly chosen restaurant.
